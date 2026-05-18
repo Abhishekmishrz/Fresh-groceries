@@ -1,6 +1,6 @@
 # FreshDoor — Grocery Ordering App
 
-A simple grocery ordering web app built as part of the Frontend Developer Intern take-home assignment.
+A simple grocery ordering web app.
 
 ## Getting Started
 
