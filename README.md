@@ -25,11 +25,18 @@ npm run build
 
 ```text
 src/
-├── components/      # UI components
-├── data/            # Product and category data
-├── App.jsx          # Main app state and layout
-├── App.css          # Styles
-└── main.jsx         # Entry point
+├── data/
+│   └── products.js          # Product and category data
+├── components/
+│   ├── Header.jsx           # Header with cart count
+│   ├── CategoryFilter.jsx   # Category buttons
+│   ├── ProductCard.jsx      # Product tile and add button
+│   ├── ProductListing.jsx   # Product grid and filtering
+│   ├── CartItem.jsx         # Cart row with quantity controls
+│   └── OrderSummary.jsx     # Cart totals and place-order action
+├── App.jsx                  # Main app state and layout
+├── App.css                  # Styles
+└── main.jsx                 # Entry point
 ```
 
 ## Features
@@ -37,5 +44,5 @@ src/
 - Product browsing by category
 - Add/remove items and update quantity
 - Cart summary with subtotal, delivery charge, and total
-- Out-of-stock handling
+- Out-of-stock items are visually distinct and cannot be added to cart
 - Order placement confirmation
