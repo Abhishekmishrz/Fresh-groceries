@@ -21,7 +21,7 @@ Open `http://localhost:5173`.
 npm run build
 ```
 
-## Project layout
+## Project structure
 
 ```text
 src/
